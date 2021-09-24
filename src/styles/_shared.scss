@@ -1,0 +1,23 @@
+// This is the project stylesheet
+
+// Colors
+$black: rgba(0, 0, 0, 1);
+$dark-slate-blue: rgba(79, 71, 170, 1);
+$royal-blue: rgba(27, 70, 222, 1);
+$silver: rgba(196, 196, 196, 1);
+$transparent-goldenrod: rgba(232, 186, 22, 0.51);
+$transparent-goldenrod-2: rgba(238, 208, 52, 0);
+
+// Typographies
+@mixin poppins-72-medium {
+  font-family: "Poppins";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 26px;
+}
+@mixin roboto-48-regular {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}

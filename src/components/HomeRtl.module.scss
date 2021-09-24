@@ -1,0 +1,50 @@
+@import "..//styles/shared";
+.homeRtl {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 46px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ltrRtlMarkdownEditor {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(68, 68, 68, 1);
+}
+.ltrRtlMarkdownEditorEmphasis1 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(68, 68, 68, 1);
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.button {
+  &:not(:last-of-type) {
+    margin-right: 10px;
+  }
+}
+.rectangle1 {
+  width: 625px;
+  height: 598px;
+  margin-right: 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(238, 238, 238, 1);
+}
+.rectangle2 {
+  width: 627px;
+  height: 600px;
+  background-color: rgba(244, 244, 244, 1);
+  border-radius: 4px;
+}
